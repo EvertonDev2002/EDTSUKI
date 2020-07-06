@@ -1,2 +1,11 @@
 # EdNoob
-Meu primeiro site utilizando PHP, Mysql, JavaScript e HTML/CSS.
+---
+
+## **_Meu primeiro site_**
+
+|   |**_Utilizando_**|   |
+|---|:-:|---|
+|   |_PHP_|   |
+|   |_Mysql_|   |
+|   |_JavaScript_|   |
+|   |_HTML/CSS_|   |

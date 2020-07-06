@@ -1,0 +1,1 @@
+Esse diretório é onde fica as imagens enviandas pelo formulário.
