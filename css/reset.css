@@ -1,11 +1,17 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
     font-size: 25pt;
-    font-family: 'Titillium Web', sans-serif;
-    color: #BABABF;
+    font-family: 'Roboto', sans-serif;
+    color: #2B2626;
     border: none;
+    background-color: #D6D6D6;
+}
+input{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
 }

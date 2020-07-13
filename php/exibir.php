@@ -20,11 +20,6 @@
         </ul>
     </nav>
     <div class="centro">
-        <!-- <form class="pesquisa" method="POST" action="pesquisa.php">
-                <label for="busca"><img src="../imgs/search.png" class="icon"></label>
-                <input type="submit" id="busca" class="hin">   
-                <input type="text"  autocomplete="off" placeholder="Pesquisar" name="pesquisa"> 
-        </form> -->
         <div class="div_Lado">
         <?php include_once("../php/processamento/conexao.php");
             $code = "SELECT * FROM edshow";
