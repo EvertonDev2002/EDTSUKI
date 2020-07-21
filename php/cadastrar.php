@@ -3,37 +3,57 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>NoobPHP - Cadastro</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/cadastrar.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/reset.css'>
+    <title>NoobPHP - Cadastro</title>
     <link rel="icon" href="../image/favicon-16.png" sizes="16x16">
     <link rel="icon" href="../image/favicon-32.png" sizes="32x32">
     <link rel="icon" href="../image/favicon-48.png" sizes="48x48">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/cadastrar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/reset.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src='../js/preview.js'></script>
 </head>
 <body>
-    <div class="centro">
-        <nav class="op">
-            <ul>
-                <li><a  id="cor1" href="#">Cadastrar</a></li>
-                <li><a href="exibir.php">Mangás</a></li>
+    <header>
+        <div class="menu_logan"><a><img src="../image/favicon-48.png">EdNoob</a></div>
+        <div class="form_fundo">
+            <form class="pesquisa" method="POST" action="pesquisa.php">
+                <input class="pesquisa" type="text" autocomplete="off" name="pesquisa"> 
+                <label for="busca" class="icon"><img src="../image/search.png"></label>
+                <input type="submit" id="busca" style="display: none;">   
+            </form>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.php">Início</a></li>
+                <li><a href="cadastrar.php">Cadastrar</a></li>
+                <li><a href="exibir.php">Biblioteca</a></li>
             </ul>
         </nav>
-        <div>
+    </header>
+    <div class="conteudo">
             <form method="POST" action="../php/processamento/processo.php" enctype="multipart/form-data">
-                <fieldset>
-                    <legend>Ed</legend>
-                    <label for="manga">Título:</label> 
+                    <legend>Informações do Mangá</legend>
+                    <label for="manga">Título</label> 
                         <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
-                    <label for="volu">Volume:</label> 
-                        <input type="text" id="volu" name="volume" required autocomplete="off"><br/>
-                    <label for="aut">Autor:</label> 
+                    <label for="aut">Autor</label> 
                         <input type="text" id="aut" name="autor" required autocomplete="off"><br/>
-                    <label for="opc">Genêro:</label>
-                        <select class="op2" id="opc" name="genero" required autocomplete="off">
+                    <label for="volu">Volume</label> 
+                        <input type="number" id="volu" name="volume" required autocomplete="off"><br/>
+                    <label for="capi">Capítulo</label> 
+                        <input type="number" id="capi" name="capitulo" required autocomplete="off"><br/>
+                    <label for="manga">Editora</label> 
+                        <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
+                        <label for="opS">Status</label>
+                        <select class="op1" id="opSta" name="status" required autocomplete="off">
+                            <option></option>
+                            <option>Completo</option>
+                            <option>Lendo</option>
+                            <option>Parado</option>
+                            <option>Pedente</option>
+                        </select><br/>
+                    <label for="opG">Genêro</label>
+                        <select class="op2" id="opG" name="genero" required autocomplete="off">
                             <option></option>
                             <option>Komodo</option>
                             <option>Shounen</option>
@@ -42,17 +62,15 @@
                             <option>Seinen</option>
                             <option>Josei</option>
                         </select><br/>
-                    <input type="submit" value="Salvar" class="bon" name="click">
+                    <button type="submit">Adicionar</button>
                     <div class="fotoPrew">
                         <img  id="mostrarAqui"> 
                         <div>
                             <label for="esfoto">Capa</label>
                             <input id="esfoto" type="file" accept="image/*" required name="foto"  onchange="mostrarImagem(event)">
                         </div>
-                   </div> 
-                </fieldset>  
+                   </div>  
             </form>
-        </div>
         <div class="seta">
             <figure >
                 <a href="../index.php" title="Voltar para página principal">
@@ -60,5 +78,17 @@
             <figure>
         </div>
     </div>
+    <footer class="rodape">
+            <h1>EdNoob</h1>
+            <p>Tenha mais controle sobre os seus mangás:</p>
+            <div>
+                <a href="https://github.com/Edward04007/EdNoob" title="@Edward04007" target="_blank">
+                    <img src="../image/github.png">
+                </a>
+                <a href="https://www.youtube.com/channel/UCWmUztmWBOuE7zhGHkwa_Zw?view_as=subscriber" title="Canal" target="_blank">
+                    <img src="../image/youtube.png">   
+                </a>
+            </div>
+    </footer>
 </body>
 </html>

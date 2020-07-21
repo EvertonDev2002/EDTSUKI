@@ -1,124 +1,149 @@
-body{
-    width: 100%;
-    height: 100%;
-    background-color: #262626;
+/*Estilização de menu*/
+.form_fundo{
+    margin-left: 37%;
+    margin-top: 1.5%;
 }
-
-.centro{
-    width: 500px;
-    height: 450px;
-    margin: 0 auto;
-    margin-top: 10%;
-    padding: 10px;
-    background-color:#eeebeb;
-    border-radius: 5% ;
-    box-shadow: 3px 5px 20px #121213; 
-}
-.op{
-     margin-top: 3%;
-}
-.op ul{
+.form_fundo form{
     display: flex;
 }
-
-.op ul li{
-    width: 250px;
-    margin: 7px;
-    text-align: center;
+.icon img{
+    left: 61.99%;
+    top: 25px;
+    width: 25px;
+    position: absolute;
+    background-color: #F3EFEF;
 }
-
-.op ul li a{
-    border-radius: 7%;
-    padding: 7px;
-}
-
-#cor1{
-    background-color:#D9D9D9;
-    border-left: solid 2px #89888C;
-    color: #151516;
-}
-.op ul li a:hover{
-    background-color:#D9D9D9;
-    transition: 0.5s ease;
-    border-left: solid 2px #89888C;
-    color: #151516;
-}
-
-fieldset label{
-    width: 75px;
-    display: inline-block;
-    font-size: 17pt;
-    color: #818185;
-    margin-left: 3%;
-}
-fieldset legend{
-    text-align: center;
-    color: #818185;
-    font-weight: 500;
-    font-family: 'Balsamiq Sans', cursive;
-    color: #bdb7b7;
-    border-bottom: solid 1px  rgb(138, 134, 134);
-    width: 150px;
-}
-
-fieldset input{
-    width: 150px;
-    height: 30px;
-    font-size: 15pt;
-    background-color: #e9e5e5;
-    color: #262626;
-}
-
-.op2{
-    width: 150px;
-    height: 30px;
-    font-size: 15pt;
-    color: #262626;
-}
-
-.op2 option{
-    width: 150px;
-    height: 30px;
-    font-size: 15pt;
-    background-color: #eeebeb;
-    color: #262626;
-}
-
-.fotoPrew{
-    margin-left: 60%;
-    margin-top: -49%;
-    justify-content: space-evenly;
-}
-.fotoPrew img{
-    width: 140px;
-    height: 190px;
-}
-
-.fotoPrew input{
-    display: none;
-}
-
-.fotoPrew label{
-  background-color: #818185;
-  border-radius: 6px;
-  color: #fff;
-  cursor: pointer;
-  padding: 5px;
-  font-size: 10pt;
-  text-align: center;
-  margin-left: 15%;
-}
-
-.seta{
-    margin-top: -50px;
-    margin-left: 18px;
-    width: 32px;
+.pesquisa{
+    width: 190px;
     height: 32px;
+    font-size: 15pt;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #F3EFEF;
 }
-
-.bon{
-    margin-left: 20%;
-    background-color: #818185;
-    color: rgb(24, 22, 22);
-    font-weight: 300;
-} 
+.pesquisa:focus{
+    box-shadow: 3px 3px 5px rgba(65, 62, 62, 0.322);
+}
+header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    box-shadow: 2px 3px 6px  rgba(65, 62, 62, 0.322);
+}
+.menu_logan{
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-size: 42px;
+    font-weight: 900;
+}
+.menu_logan img{
+    width: 42px;
+    line-height: 42px;
+    margin-bottom: -7px;
+}
+.menu{
+    left: 65%;
+    top: 17px;
+    display: flex;
+    position: absolute;
+}
+.menu li a{
+    padding: 7px;
+    margin-left: 20px;
+}
+.menu li a:hover{
+    color:#1a1818;
+    background-color: #70b7e0;
+    border-radius: 50px;
+    transition: ease-in 450ms;
+}
+/*Estilização do conteúdo*/
+.conteudo{
+    width: 100%;
+    height: 800px;
+    padding: 40px;
+    padding-top: 150px;
+    background-color: #DFDFDF;
+}
+.conteudo form{
+    background-color: #DFDFDF;
+}
+.conteudo form legend{
+    margin: 15px;
+    width: 400px;
+    font-size: 16pt;
+    margin-left: 39%;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #DFDFDF;
+    border-bottom: solid 1px #aaa9a9;
+}
+.conteudo form input{
+    width: 15%;
+    height: 35px ;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:solid #aaa9a9;
+    background-color: #F3EFEF;
+    font-size: 14pt;
+}
+.Indicativo_Opci{
+    width: 900px;
+    margin: 0;
+    padding: 0;
+}
+.Indicativo_Opci input{
+    width: 50px
+}
+.conteudo form button{
+    width: 15%;
+    height: 35px ;
+    font-size: 14pt;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: solid 2px #62aada;
+    background-color: #23aadf;
+    margin-left: 25%;
+}
+.conteudo form button:focus{
+    border:solid 2px #4786b1;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.075);
+}
+.conteudo form label{
+    width: 90pt;
+    font-size: 16pt;
+    margin-left: 15%;
+    text-align: end;
+    display: inline-block;
+    background-color: #DFDFDF;
+}
+/*Estilização do rodapé*/
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: #63a4e0;
+}
+.rodape div{
+   margin-left: 48%; 
+}
+.rodape h1{
+    font-size: 14pt;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    background-color:#63a4e0;
+}
+.rodape p{
+    font-size: 10pt;
+    text-align: center;
+}
+.rodape a{
+    text-align: center;
+    background-color:#63a4e0;
+}
+.rodape img{
+    width: 25px;
+    background-color:#63a4e0;
+}
