@@ -24,7 +24,7 @@
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="php/cadastrar.php">Cadastrar</a></li>
+                <li><a href="php/cadastrar.php">Adicionar</a></li>
                 <li><a href="php/exibir.php">Biblioteca</a></li>
             </ul>
         </nav>
@@ -34,7 +34,7 @@
             <p>Adicionados recentemente</p>
             <section>
                 <article>
-                    <img src="cache_upload/cbbac002a79529d342c9e76d0978bbd0.png">
+                    <img src="cache_upload/">
                 </article>
             </section>
         </div>
@@ -42,7 +42,7 @@
             <p>Maiores volumes</p>
             <section>
                 <article>
-                    <img src="cache_upload/cbbac002a79529d342c9e76d0978bbd0.png" width="120px" height="180px">
+                    <img src="cache_upload/">
                 </article>
             </section>
         </div>

@@ -26,7 +26,7 @@
         <nav>
             <ul class="menu">
                 <li><a href="../index.php">Início</a></li>
-                <li><a href="cadastrar.php">Cadastrar</a></li>
+                <li><a href="cadastrar.php">Adicionar</a></li>
                 <li><a href="exibir.php">Biblioteca</a></li>
             </ul>
         </nav>
@@ -45,7 +45,7 @@
                     <label for="manga">Editora</label> 
                         <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
                         <label for="opS">Status</label>
-                        <select class="op1" id="opSta" name="status" required autocomplete="off">
+                        <select id="opSta" name="status" required autocomplete="off">
                             <option></option>
                             <option>Completo</option>
                             <option>Lendo</option>
@@ -53,7 +53,7 @@
                             <option>Pedente</option>
                         </select><br/>
                     <label for="opG">Genêro</label>
-                        <select class="op2" id="opG" name="genero" required autocomplete="off">
+                        <select id="opG" name="genero" required autocomplete="off">
                             <option></option>
                             <option>Komodo</option>
                             <option>Shounen</option>
@@ -64,19 +64,11 @@
                         </select><br/>
                     <button type="submit">Adicionar</button>
                     <div class="fotoPrew">
-                        <img  id="mostrarAqui"> 
-                        <div>
-                            <label for="esfoto">Capa</label>
-                            <input id="esfoto" type="file" accept="image/*" required name="foto"  onchange="mostrarImagem(event)">
-                        </div>
+                        <img id="mostrarAqui"> 
+                        <label for="esfoto"><p>Capa</p></label>
+                        <input id="esfoto" type="file" accept="image/*" required name="foto" onchange="mostrarImagem(event)">
                    </div>  
             </form>
-        <div class="seta">
-            <figure >
-                <a href="../index.php" title="Voltar para página principal">
-                <img src="../image/seta.png"  width="32px" height="32px" alt="Voltar"></a>
-            <figure>
-        </div>
     </div>
     <footer class="rodape">
             <h1>EdNoob</h1>

@@ -71,9 +71,9 @@ header{
 }
 .conteudo form legend{
     margin: 15px;
-    width: 400px;
+    width: 450px;
+    margin: 0 auto;
     font-size: 16pt;
-    margin-left: 39%;
     font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
@@ -82,30 +82,22 @@ header{
 }
 .conteudo form input{
     width: 15%;
-    height: 35px ;
+    height: 35px;
+    font-size: 14pt;
     margin-top: 10px;
     border-radius: 7px;
     border:solid #aaa9a9;
     background-color: #F3EFEF;
-    font-size: 14pt;
-}
-.Indicativo_Opci{
-    width: 900px;
-    margin: 0;
-    padding: 0;
-}
-.Indicativo_Opci input{
-    width: 50px
 }
 .conteudo form button{
     width: 15%;
-    height: 35px ;
+    height: 35px;
     font-size: 14pt;
     margin-top: 10px;
-    border-radius: 7px;
-    border: solid 2px #62aada;
-    background-color: #23aadf;
     margin-left: 25%;
+    border-radius: 7px;
+    background-color: #23aadf;
+    border: solid 2px #62aada;
 }
 .conteudo form button:focus{
     border:solid 2px #4786b1;
@@ -114,10 +106,50 @@ header{
 .conteudo form label{
     width: 90pt;
     font-size: 16pt;
-    margin-left: 15%;
     text-align: end;
+    margin-left: 15%;
     display: inline-block;
     background-color: #DFDFDF;
+}
+.conteudo form select{
+    width: 15%;
+    height: 35px;
+    font-size: 14pt;
+    margin-top: 10px;
+    border-radius: 7px;
+    border:solid #aaa9a9;
+    background-color: #F3EFEF;
+}
+.conteudo form select option{
+    width: 15%;
+    height: 35px;
+    font-size: 14pt;
+    background-color: #F3EFEF;
+}
+.fotoPrew{
+    width: 350px;
+    height: 400px;
+    margin-left: 50%;
+    margin-top: -28%;
+}
+.fotoPrew img{
+    width: 350px;
+    height: 400px;
+    background-color: #3aa1d1a8;
+}
+.fotoPrew input{
+    display: none;
+}
+.fotoPrew label p{
+    width: 150px;
+    height: 30px;
+    padding: 2px;
+    margin-left: 35%;
+    font-size: 14pt;
+    border-radius: 7px;
+    text-align: center;
+    background: #23aadf;
+    border: solid 2px #62aada;
 }
 /*Estilização do rodapé*/
 .rodape{
