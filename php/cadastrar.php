@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>NoobPHP - Cadastro</title>
     <link rel="icon" href="../image/favicon-16.png" sizes="16x16">
@@ -15,10 +14,10 @@
 </head>
 <body>
     <header>
-        <div class="menu_logan"><a><img src="../image/favicon-48.png">EdNoob</a></div>
+        <div class="menu_logan"><a href="../index.php"><img src="../image/favicon-48.png">EdNoob</a></div>
         <div class="form_fundo">
             <form class="pesquisa" method="POST" action="pesquisa.php">
-                <input class="pesquisa" type="text" autocomplete="off" name="pesquisa"> 
+                <input class="pesquisa" maxlength="50" type="text" autocomplete="off" name="pesquisa"> 
                 <label for="busca" class="icon"><img src="../image/search.png"></label>
                 <input type="submit" id="busca" style="display: none;">   
             </form>
@@ -33,54 +32,54 @@
     </header>
     <div class="conteudo">
             <form method="POST" action="../php/processamento/processo.php" enctype="multipart/form-data">
-                    <legend>Informações do Mangá</legend>
-                    <label for="manga">Título</label> 
-                        <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
-                    <label for="aut">Autor</label> 
-                        <input type="text" id="aut" name="autor" required autocomplete="off"><br/>
-                    <label for="volu">Volume</label> 
-                        <input type="number" id="volu" name="volume" required autocomplete="off"><br/>
-                    <label for="capi">Capítulo</label> 
-                        <input type="number" id="capi" name="capitulo" required autocomplete="off"><br/>
-                    <label for="manga">Editora</label> 
-                        <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
-                        <label for="opS">Status</label>
-                        <select id="opSta" name="status" required autocomplete="off">
-                            <option></option>
-                            <option>Completo</option>
-                            <option>Lendo</option>
-                            <option>Parado</option>
-                            <option>Pedente</option>
-                        </select><br/>
-                    <label for="opG">Genêro</label>
-                        <select id="opG" name="genero" required autocomplete="off">
-                            <option></option>
-                            <option>Komodo</option>
-                            <option>Shounen</option>
-                            <option>Shoujo</option>
-                            <option>Gekigá</option>
-                            <option>Seinen</option>
-                            <option>Josei</option>
-                        </select><br/>
+                <legend>Informações do Mangá</legend>
+                <label for="manga">Título</label> 
+                    <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
+                <label for="aut">Autor</label> 
+                    <input type="text" id="aut" name="autor" required autocomplete="off"><br/>
+                <label for="volu">Volume</label> 
+                    <input type="number" id="volu" name="volume" required autocomplete="off"><br/>
+                <label for="capi">Capítulo</label> 
+                    <input type="number" id="capi" name="capitulo" required autocomplete="off"><br/>
+                <label for="manga">Editora</label> 
+                    <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
+                <label for="opS">Status</label>
+                    <select id="opSta" name="status" required autocomplete="off">
+                        <option></option>
+                        <option>Completo</option>
+                        <option>Lendo</option>
+                        <option>Parado</option>
+                        <option>Pedente</option>
+                    </select><br/>
+                <label for="opG">Genêro</label>
+                    <select id="opG" name="genero" required autocomplete="off">
+                        <option></option>
+                        <option>Komodo</option>
+                        <option>Shounen</option>
+                        <option>Shoujo</option>
+                        <option>Gekigá</option>
+                        <option>Seinen</option>
+                        <option>Josei</option>
+                    </select><br/>
                     <button type="submit">Adicionar</button>
-                    <div class="fotoPrew">
+                <div class="fotoPrew">
                         <img id="mostrarAqui"> 
-                        <label for="esfoto"><p>Capa</p></label>
+                    <label for="esfoto"><p>Capa</p></label>
                         <input id="esfoto" type="file" accept="image/*" required name="foto" onchange="mostrarImagem(event)">
-                   </div>  
+                </div>  
             </form>
     </div>
     <footer class="rodape">
-            <h1>EdNoob</h1>
-            <p>Tenha mais controle sobre os seus mangás:</p>
-            <div>
-                <a href="https://github.com/Edward04007/EdNoob" title="@Edward04007" target="_blank">
-                    <img src="../image/github.png">
-                </a>
-                <a href="https://www.youtube.com/channel/UCWmUztmWBOuE7zhGHkwa_Zw?view_as=subscriber" title="Canal" target="_blank">
-                    <img src="../image/youtube.png">   
-                </a>
-            </div>
+        <h1>EdNoob</h1>
+        <p>Tenha mais controle sobre os seus mangás:</p>
+        <div>
+            <a href="https://github.com/Edward04007/EdNoob" title="@Edward04007" target="_blank">
+                <img src="../image/github.png">
+            </a>
+            <a href="https://www.youtube.com/channel/UCWmUztmWBOuE7zhGHkwa_Zw?view_as=subscriber" title="Canal" target="_blank">
+                <img src="../image/youtube.png">   
+            </a>
+        </div>
     </footer>
 </body>
 </html>

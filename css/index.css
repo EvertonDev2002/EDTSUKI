@@ -1,20 +1,20 @@
 /*Estilização de menu*/
 .form_fundo{
-    margin-left: 45%;
+    margin-left: 29%;
     margin-top: 1.5%;
 }
 .form_fundo form{
     display: flex;
 }
 .icon img{
-    left: 69.99%;
+    left: 70.3%;
     top: 25px;
     width: 25px;
     position: absolute;
     background-color: #F3EFEF;
 }
 .pesquisa{
-    width: 190px;
+    width: 420px;
     height: 32px;
     font-size: 15pt;
     text-align: left;

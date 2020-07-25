@@ -1,20 +1,20 @@
 /*Estilização de menu*/
 .form_fundo{
-    margin-left: 37%;
+    margin-left: 21%;
     margin-top: 1.5%;
 }
 .form_fundo form{
     display: flex;
 }
 .icon img{
-    left: 61.99%;
+    left: 62.3%;
     top: 25px;
     width: 25px;
     position: absolute;
     background-color: #F3EFEF;
 }
 .pesquisa{
-    width: 190px;
+    width: 420px;
     height: 32px;
     font-size: 15pt;
     text-align: left;
@@ -144,8 +144,8 @@ header{
     width: 150px;
     height: 30px;
     padding: 2px;
-    margin-left: 35%;
     font-size: 14pt;
+    margin-left: 35%;
     border-radius: 7px;
     text-align: center;
     background: #23aadf;
