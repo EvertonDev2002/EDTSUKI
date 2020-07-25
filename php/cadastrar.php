@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>NoobPHP - Cadastro</title>
+    <title>Cadastro - EdNoob</title>
     <link rel="icon" href="../image/favicon-16.png" sizes="16x16">
     <link rel="icon" href="../image/favicon-32.png" sizes="32x32">
     <link rel="icon" href="../image/favicon-48.png" sizes="48x48">
@@ -51,7 +51,7 @@
                         <option>Parado</option>
                         <option>Pedente</option>
                     </select><br/>
-                <label for="opG">Genêro</label>
+                <label for="opG">Gênero</label>
                     <select id="opG" name="genero" required autocomplete="off">
                         <option></option>
                         <option>Komodo</option>

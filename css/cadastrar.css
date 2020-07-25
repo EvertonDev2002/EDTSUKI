@@ -7,8 +7,8 @@
     display: flex;
 }
 .icon img{
-    left: 62.3%;
     top: 25px;
+    left: 62.3%;
     width: 25px;
     position: absolute;
     background-color: #F3EFEF;
@@ -26,16 +26,16 @@
 }
 header{
     width: 100%;
-    position: fixed;
     display: flex;
+    position: fixed;
     box-shadow: 2px 3px 6px  rgba(65, 62, 62, 0.322);
 }
 .menu_logan{
     margin-top: 1%;
     margin-left: 2%;
-    margin-bottom: 1%;
     font-size: 42px;
     font-weight: 900;
+    margin-bottom: 1%;
 }
 .menu_logan img{
     width: 42px;
@@ -54,9 +54,9 @@ header{
 }
 .menu li a:hover{
     color:#1a1818;
-    background-color: #70b7e0;
     border-radius: 50px;
     transition: ease-in 450ms;
+    background-color: #70b7e0;
 }
 /*Estilização do conteúdo*/
 .conteudo{
@@ -131,11 +131,18 @@ header{
     height: 400px;
     margin-left: 50%;
     margin-top: -28%;
+    border-radius: 19px;
+    border-top-width: 10px;
+    border-top-style:outset;
+    background-color: #afaeae;
+    border-top-color: #63a4e0;
 }
 .fotoPrew img{
     width: 350px;
+    border: none;
     height: 400px;
-    background-color: #3aa1d1a8;
+    border-radius: 19px;
+    background-color: #afaeae;
 }
 .fotoPrew input{
     display: none;
