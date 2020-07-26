@@ -64,6 +64,18 @@
                 <img src="../image/menu-32.png">
             </span>
         </article>
-   
+    </div>
+    <footer class="rodape">
+        <h1>EdNoob</h1>
+        <p>Tenha mais controle sobre os seus mangás:</p>
+        <div>
+            <a href="https://github.com/Edward04007/EdNoob" title="@Edward04007" target="_blank">
+                <img src="../image/github.png">
+            </a>
+            <a href="https://www.youtube.com/channel/UCWmUztmWBOuE7zhGHkwa_Zw?view_as=subscriber" title="Canal" target="_blank">
+                <img src="../image/youtube.png">   
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

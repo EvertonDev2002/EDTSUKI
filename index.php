@@ -29,23 +29,162 @@
         </nav>
     </header>
     <div class="conteudo">
-        <div>
-            <p>Adicionados recentemente</p>
-            <section>
-                <article>
-                    <img src="cache_upload/">
-                </article>
-            </section>
-        </div>
-        <div>
-            <p>Maiores volumes</p>
-            <section>
-                <article>
-                    <img src="cache_upload/">
-                </article>
-            </section>
-        </div>
         <aside>slide</aside><!-- O slide mostrará os favoritos -->
+        <section>
+            <div class="Div-text">
+                <p>Adicionados recentemente</p>
+            </div>
+            <div class="Div-Overflow">
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>Lendo</p>
+            </div>
+            <div class="Div-Overflow">
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>Pedentes</p>
+            </div>
+            <div class="Div-Overflow">
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>Parados</p>
+            </div>
+            <div class="Div-Overflow">
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p>Completos</p>
+            </div>
+            <div class="Div-Overflow">
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+                <article>
+                    <img src="cache_upload/0a8f99fd50a9494d72df6678a065c454.png">
+                </article>
+            </div>
+        </section>
     </div>
     <footer class="rodape">
         <h1>EdNoob</h1>

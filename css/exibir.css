@@ -76,32 +76,33 @@ header{
     display: flex;
     padding-top: 10px;
     padding-left: 10px;
+    border-radius: 15px;
     align-items: center;
     padding-bottom: 10px;
-    border-radius: 15px;
     border-top-width: 10px;
     border-top-style:outset;
-    background-color: #C4C4C4;
+    background-color: #f3ebeb;
     border-top-color: #63a4e0;
     box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
 }
 .conteudo article figcaption{
     padding-left:35px;
-    background-color: #C4C4C4;
+    background-color: #f3ebeb;
 }
 .conteudo article figcaption h1{
     font-size: 0.9em;
-    background-color: #C4C4C4;
+    background-color: #f3ebeb;
 }
 .conteudo article figcaption p{
     font-size: 0.7em;
-    background-color: #C4C4C4;
+    background-color: #f3ebeb;
 }
 .conteudo article figure img{
     width: 150px;
     height: 210px;
     display: block;
     border-radius: 18px;
+    background-color: #f3ebeb;
 }
 /*Estilização do rodapé*/
 .rodape{

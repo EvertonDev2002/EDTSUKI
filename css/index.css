@@ -25,6 +25,7 @@
     box-shadow: 3px 2px 5px rgba(65, 62, 62, 0.322);
 }
 header{
+    z-index: 1;
     width: 100%;
     display: flex;
     position: fixed;
@@ -61,42 +62,56 @@ header{
 /*Estilização do conteúdo*/
 .conteudo{
     width: 100%;
-    height: 800px;
+    height: 100%;
     padding: 45px;
-    padding-top: 40px;
     background-color: #DFDFDF;
 }
-.conteudo div{
+.conteudo section{
     width: 720px;
+    display: flex;
     height: 249px;
     margin-top: 7%;
-    padding-top: 15px;
     border-radius: 9px;
-    box-shadow: 3px 4px 7px rgba(65, 62, 62, 0.322);
+    align-items: center;
+    box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
 }
-.conteudo div section{
-    padding-top: 7px;
-    padding-left: 10px;
-    background-color:  #C4C4C4;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px; 
+.Div-Overflow{
+    display: flex;
+    height: 249px;
+    overflow: auto;
+    border-width: 10px;
+    border-radius: 9px;
+    align-items: center;
+    border-right-width: 5px;
+    border-top-style: solid;
+    border-color: #63a4e0; 
+    border-right-style: solid;
+    border-bottom-style: solid;
+    background-color:#f3ebeb;
 }
-.conteudo div section article{
-    background-color:  #C4C4C4;
+.conteudo section article{
+    padding: 10px;
+    background-color:#f3ebeb;
 }
-.conteudo div section article img{
+.conteudo section article img{
     width:120px;
     height:180px;
+    display: block;
+    border-radius: 9px;
 }
-.conteudo p{
+.conteudo section p{
+    padding: 15px;
+    width: 234.5px;
     text-align: center;
+    background-color: #63a4e0;
 }
 .conteudo aside{
+    top: 40%;
+    left: 60%;
     width: 450px;
     height: 500px;
-    margin-left: 65%;
-    margin-top: -43%;
-    box-shadow: 7px 7px 7px rgba(65, 62, 62, 0.322);
+    position: absolute;
+    box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
 }
 /*Estilização do rodapé*/
 .rodape{

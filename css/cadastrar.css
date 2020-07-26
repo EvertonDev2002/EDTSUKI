@@ -134,15 +134,14 @@ header{
     border-radius: 19px;
     border-top-width: 10px;
     border-top-style:outset;
-    background-color: #afaeae;
     border-top-color: #63a4e0;
 }
 .fotoPrew img{
     width: 350px;
-    border: none;
     height: 400px;
-    border-radius: 19px;
-    background-color: #afaeae;
+    border-radius: 12px;
+    border: solid 1px #aaa9a9;
+    background-color: #f3ebeb;
 }
 .fotoPrew input{
     display: none;
