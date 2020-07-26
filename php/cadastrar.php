@@ -38,11 +38,11 @@
                 <label for="aut">Autor</label> 
                     <input type="text" id="aut" name="autor" required autocomplete="off"><br/>
                 <label for="volu">Volume</label> 
-                    <input type="number" id="volu" name="volume" required autocomplete="off"><br/>
+                    <input type="number" id="volu" name="volume" placeholder="Opcional" autocomplete="off"><br/>
                 <label for="capi">Capítulo</label> 
-                    <input type="number" id="capi" name="capitulo" required autocomplete="off"><br/>
+                    <input type="number" id="capi" name="capitulo" placeholder="Opcional" autocomplete="off"><br/>
                 <label for="manga">Editora</label> 
-                    <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
+                    <input type="text" id="manga" name="editora" required autocomplete="off"><br/>
                 <label for="opS">Status</label>
                     <select id="opSta" name="status" required autocomplete="off">
                         <option></option>

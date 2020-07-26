@@ -11,17 +11,21 @@
     background-color:#63a4e0;
 }
 input{
-    box-shadow: 0 0 0 0;
-    border: 0;
-    outline: 0;
+    box-shadow: none;
+    border: none;
+    outline: none;
 }
 select{
-    box-shadow: 0 0 0 0;
-    border: 0;
-    outline: 0;
+    box-shadow: none;
+    border: none;
+    outline: none;
 }
 button{
     box-shadow: 0 0 0 0;
-    border: 0;
-    outline: 0;
+    border: none;
+    outline: none;
+}
+img{
+    border: none;
+    outline: none;
 }
