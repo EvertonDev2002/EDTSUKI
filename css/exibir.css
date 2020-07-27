@@ -1,69 +1,8 @@
-/*Estilização de menu*/
-.form_fundo{
-    margin-left: 21%;
-    margin-top: 1.5%;
-}
-.form_fundo form{
-    display: flex;
-}
-.icon img{
-    top: 25px;
-    left: 62%;
-    width: 25px;
-    position: absolute;
-    background-color: #F3EFEF;
-}
-.pesquisa{
-    width: 420px;
-    height: 32px;
-    font-size: 15pt;
-    text-align: left;
-    border-radius: 5px;
-    background-color: #F3EFEF;
-}
-.pesquisa:focus{
-    box-shadow: 3px 3px 5px rgba(65, 62, 62, 0.322);
-}
-header{
-    width: 100%;
-    display: flex;
-    position: fixed;
-    box-shadow: 2px 3px 6px  rgba(65, 62, 62, 0.322);
-}
-.menu_logan{
-    margin-top: 1%;
-    margin-left: 2%;
-    font-size: 42px;
-    font-weight: 900;
-    margin-bottom: 1%;
-}
-.menu_logan img{
-    width: 42px;
-    line-height: 42px;
-    margin-bottom: -7px;
-}
-.menu{
-    left: 65%;
-    top: 17px;
-    display: flex;
-    position: absolute;
-}
-.menu li a{
-    padding: 7px;
-    margin-left: 20px;
-}
-.menu li a:hover{
-    color:#1a1818;
-    border-radius: 50px;
-    transition: ease-in 450ms;
-    background-color: #70b7e0;
-}
 /*Estilização do conteúdo*/
 .conteudo{
     width: 100%;
     height: 100%;
     display: flex;
-    padding: 25px;
     flex-wrap: wrap;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -85,6 +24,16 @@ header{
     border-top-color: #63a4e0;
     box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
 }
+.conteudo article span{
+    width: 32px;
+    height: 32px;
+    background-color: #f3ebeb;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image/menu-32.png");
+}
+
+
 .conteudo article figcaption{
     padding-left:35px;
     background-color: #f3ebeb;
@@ -103,32 +52,4 @@ header{
     display: block;
     border-radius: 18px;
     background-color: #f3ebeb;
-}
-/*Estilização do rodapé*/
-.rodape{
-    width: 100%;
-    height: 100px;
-    background-color: #63a4e0;
-}
-.rodape div{
-   margin-left: 48%; 
-}
-.rodape h1{
-    font-size: 14pt;
-    font-weight: 600;
-    margin-top: 20px;
-    text-align: center;
-    background-color:#63a4e0;
-}
-.rodape p{
-    font-size: 10pt;
-    text-align: center;
-}
-.rodape a{
-    text-align: center;
-    background-color:#63a4e0;
-}
-.rodape img{
-    width: 25px;
-    background-color:#63a4e0;
 }
