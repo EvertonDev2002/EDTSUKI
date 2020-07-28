@@ -72,7 +72,8 @@
     </div>
     <footer class="rodape">
         <h1>EdNoob</h1>
-        <p>Tenha mais controle sobre os seus mangás</p>
+        <p>Tenha um maior controle sobre os seus animes e mangás,
+            isto é, acompanhe tudo de mais perto atráves do EdNoob.</p>
         <div>
             <a class="Image1" href="https://github.com/Edward04007/EdNoob" title="@Edward04007" target="_blank"></a>
             <a class="image2" href="https://www.youtube.com/channel/UCWmUztmWBOuE7zhGHkwa_Zw?view_as=subscriber" title="Canal" target="_blank"></a>

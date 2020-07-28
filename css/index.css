@@ -32,19 +32,35 @@
     border-bottom-style: solid;
     background-color:#f3ebeb;
 }
-.conteudo section article{
+.conteudo section div article{
     padding: 10px;
     background-color:#f3ebeb;
 }
-.conteudo section article img{
+.conteudo section div article img{
     width:120px;
-    height:180px;
+    height:170px;
     display: block;
-    border-radius: 9px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.164);
 }
-.conteudo section p{
+.conteudo section div p{
     padding: 15px;
-    width: 234.5px;
+    width: 230px;
     text-align: center;
     background-color: #63a4e0;
+}
+.conteudo section div article legend{
+    padding: 2px;
+    width: 120px;
+    display: block;
+    overflow: hidden;
+    font-size: 0.4em;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #DFDFDF;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.164);
 }

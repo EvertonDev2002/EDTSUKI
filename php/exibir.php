@@ -31,25 +31,43 @@
         </nav>
     </header>
     <div class="conteudo">
-        <article>
-            <figure>
-                <img src="../cache_upload/3be618bd87f8bb66f0a0c37c9c9876ec.jpg"> 
-            </figure>
-            <figcaption>
-                <h1>Título</h1>
-                <p>Autor</p>
-                <p>Volume</p>
-                <p>Capítulo</p>
-                <p>Editora</p>
-                <p>Status</p>
-                <p>Gênero</p>
-            </figcaption>
-            <span></span>
-        </article>
+        <section>
+            <article>
+                <figure>
+                    <img src="../cache_upload/4a370c5db374842851549463a9a30f45.jpg"> 
+                </figure>
+                <figcaption>
+                <div class="Div_Text_Ilustrativo">
+                    <h1>Título:</h1>
+                    <p>Autor:</p>
+                    <p>Volume:</p>
+                    <p>Capítulo:</p>
+                    <p>Editora:</p>
+                    <p>Status:</p>
+                    <p>Gênero:</p>
+                    </div>
+                    <div>
+                    <h1>Título</h1>
+                    <p>Autor</p>
+                    <p>Volume</p>
+                    <p>Capítulo</p>
+                    <p>Editora</p>
+                    <p>Status</p>
+                    <p>Gênero</p>
+                    </div>
+                </figcaption>
+            </article>
+                <div class="Div-Icon_Op">
+                    <a class="icon1" href="#"></a>
+                    <button class="icon2" type="submit"></button>
+                    <a class="icon3" href="#"></a>
+                </div>
+        </section>
     </div>
     <footer class="rodape">
         <h1>EdNoob</h1>
-        <p>Tenha mais controle sobre os seus mangás</p>
+        <p>Tenha um maior controle sobre os seus animes e mangás,
+            isto é, acompanhe tudo de mais perto atráves do EdNoob.</p>
         <div>
             <a class="Image1" href="https://github.com/Edward04007/EdNoob" title="@Edward04007" target="_blank"></a>
             <a class="image2" href="https://www.youtube.com/channel/UCWmUztmWBOuE7zhGHkwa_Zw?view_as=subscriber" title="Canal" target="_blank"></a>

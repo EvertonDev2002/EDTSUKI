@@ -15,7 +15,8 @@
 }
 .rodape p{
     font-size: 0.4em;
-    text-align: center;
+    text-align: justify;
+    
 }
 .rodape div{
     width: 70px;
@@ -27,6 +28,7 @@
     height: 32px;
     background-position: left;
     background-repeat: no-repeat;
+    background-size: 25px;
     background-image: url("../image/github.png");
 }
 .image2{
@@ -34,5 +36,6 @@
     height: 32px;
     background-position: right;
     background-repeat: no-repeat;
+    background-size: 25px;
     background-image: url("../image/youtube.png");
 }
