@@ -36,9 +36,18 @@
                 <p>Favoritos</p>
             </div>
             <div class="Div-Overflow">
+            <?php include_once("php/processamento/conexao.php");
+            $code = "SELECT * FROM mangas WHERE favoritos";
+            $resul = mysqli_query($ed, $code);
+            if($resul){
+                while($row = mysqli_fetch_array($resul)){?>
                 <article>
-                    <img src="cache_upload/">
-                </article> 
+                    <img src="cache_upload/<?php echo $row['arquivo']?>"">
+                </article>
+                <?php
+                }
+            }
+            ?> 
             </div>
         </section>
         <section>
