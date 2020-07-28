@@ -33,6 +33,7 @@
     width: 15%;
     height: 35px;
     font-size: 14pt;
+    cursor: pointer;
     margin-top: 10px;
     margin-left: 25%;
     border-radius: 7px;
@@ -70,7 +71,7 @@
     width: 350px;
     height: 400px;
     margin-left: 50%;
-    margin-top: -28%;
+    margin-top: -25%;
     border-radius: 19px;
     border-top-width: 10px;
     border-top-style:outset;
@@ -90,6 +91,7 @@
     width: 150px;
     height: 30px;
     padding: 2px;
+    cursor: pointer;
     font-size: 14pt;
     margin-left: 35%;
     border-radius: 7px;

@@ -46,9 +46,18 @@
                 <p>Adicionados recentemente</p>
             </div>
             <div class="Div-Overflow">
+            <?php include_once("php/processamento/conexao.php");
+            $code = "SELECT * FROM mangas ORDER BY id DESC";
+            $resul = mysqli_query($ed, $code);
+            if($resul){
+                while($row = mysqli_fetch_array($resul)){?>
                 <article>
-                    <img src="cache_upload/">
-                </article> 
+                    <img src="cache_upload/<?php echo $row['arquivo']?>">
+                </article>
+                <?php
+                }
+            }
+            ?> 
             </div>
         </section>
         <section>
@@ -56,9 +65,18 @@
                 <p>Lendo</p>
             </div>
             <div class="Div-Overflow">
+            <?php include_once("php/processamento/conexao.php");
+            $code = "SELECT * FROM mangas WHERE statush = 'Lendo'";
+            $resul = mysqli_query($ed, $code);
+            if($resul){
+                while($row = mysqli_fetch_array($resul)){?>
                 <article>
-                    <img src="cache_upload/">
+                    <img src="cache_upload/<?php echo $row['arquivo']?>">
                 </article>
+                <?php
+                }
+            }
+            ?> 
             </div>
         </section>
         <section>
@@ -66,9 +84,18 @@
                 <p>Pedentes</p>
             </div>
             <div class="Div-Overflow">
+            <?php include_once("php/processamento/conexao.php");
+            $code = "SELECT * FROM mangas WHERE statush = 'Pedente'";
+            $resul = mysqli_query($ed, $code);
+            if($resul){
+                while($row = mysqli_fetch_array($resul)){?>
                 <article>
-                    <img src="cache_upload/">
+                    <img src="cache_upload/<?php echo $row['arquivo']?>">
                 </article>
+                <?php
+                }
+            }
+            ?> 
             </div>
         </section>
         <section>
@@ -76,9 +103,18 @@
                 <p>Parados</p>
             </div>
             <div class="Div-Overflow">
+            <?php include_once("php/processamento/conexao.php");
+            $code = "SELECT * FROM mangas WHERE statush = 'Parado'";
+            $resul = mysqli_query($ed, $code);
+            if($resul){
+                while($row = mysqli_fetch_array($resul)){?>
                 <article>
-                    <img src="cache_upload/">
+                    <img src="cache_upload/<?php echo $row['arquivo']?>">
                 </article>
+                <?php
+                }
+            }
+            ?>
             </div>
         </section>
         <section>
@@ -86,9 +122,18 @@
                 <p>Completos</p>
             </div>
             <div class="Div-Overflow">
+            <?php include_once("php/processamento/conexao.php");
+            $code = "SELECT * FROM mangas WHERE statush = 'Completo'";
+            $resul = mysqli_query($ed, $code);
+            if($resul){
+                while($row = mysqli_fetch_array($resul)){?>
                 <article>
-                    <img src="cache_upload/">
+                    <img src="cache_upload/<?php echo $row['arquivo']?>">
                 </article>
+                <?php
+                }
+            }
+            ?>
             </div>
         </section>
     </div>

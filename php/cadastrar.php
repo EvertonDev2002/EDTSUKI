@@ -3,7 +3,7 @@
 <head lang="pt-BR">
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Cadastro - EdNoob</title>
+    <title>Adicionar - EdNoob</title>
     <link rel="icon" href="../image/favicon-16.png" sizes="16x16">
     <link rel="icon" href="../image/favicon-32.png" sizes="32x32">
     <link rel="icon" href="../image/favicon-48.png" sizes="48x48">
@@ -41,9 +41,9 @@
                 <label for="volu">Volume</label> 
                     <input type="number" id="volu" name="volume" placeholder="Opcional" autocomplete="off"><br/>
                 <label for="capi">Capítulo</label> 
-                    <input type="number" id="capi" name="capitulo" placeholder="Opcional" autocomplete="off"><br/>
-                <label for="manga">Editora</label> 
-                    <input type="text" id="manga" name="editora" required autocomplete="off"><br/>
+                     <input type="number" id="capi" name="capitulo" placeholder="Opcional" autocomplete="off"><br/>
+                <!-- <label for="edit">Editora</label>
+                    <input type="text" id="edit" name="editora" required autocomplete="off"><br/> -->
                 <label for="opS">Status</label>
                     <select id="opSta" name="status" required autocomplete="off">
                         <option></option>
