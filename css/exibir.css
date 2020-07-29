@@ -99,6 +99,19 @@
     background-color: #f3ebeb;
     background-image: url("../image/trophy.png");
 }
+.icon4{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    padding-top:35px;
+    font-size: 0.3em;
+    padding-left: 5px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f3ebeb;
+    background-image: url("../image/trop.png");
+}
 
 .conteudo article figcaption{
     display: flex;
@@ -114,17 +127,29 @@
     display: inline-block;
 }
 .Div_Text_Ilustrativo h1{
+    font-size: 0.8em;
     color: #2b2626c2;
-}
-.Div_Text_Ilustrativo p{
-    color: #2b2626e7;
-}
-.conteudo article figcaption h1{
-    font-size: 0.9em;
     background-color: #f3ebeb;
 }
-.conteudo article figcaption p{
+.Div_Text_Ilustrativo p{
     font-size: 0.7em;
+    color: #2b2626e7;
+    background-color: #f3ebeb;
+}
+.Div_Text h1{
+    width: 240px;
+    font-size: 0.8em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #f3ebeb;
+}
+.Div_Text p{
+    width: 250px;
+    font-size: 0.7em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     background-color: #f3ebeb;
 }
 .conteudo article figure img{

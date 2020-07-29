@@ -1,124 +1,153 @@
-body{
+/*Estilização do conteúdo*/
+.conteudo{
     width: 100%;
     height: 100%;
-    background-color: #262626;
-}
-
-.centro{
-    width: 500px;
-    height: 450px;
-    margin: 0 auto;
-    margin-top: 10%;
-    padding: 10px;
-    background-color:#eeebeb;
-    border-radius: 5% ;
-    box-shadow: 3px 5px 20px #121213; 
-}
-.op{
-     margin-top: 3%;
-}
-.op ul{
     display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:#DFDFDF;
+    justify-content: space-around;
+}
+.conteudo section{
+    width: 50%;
+    margin: 10px;
+    height: 249px;
+    display: flex;
+    padding: 15px;
+    border-radius: 15px;
+    align-items: center;
+    border-top-width: 10px;
+    border-top-style:outset;
+    background-color: #f3ebeb;
+    border-top-color: #63a4e0;
+    justify-content: space-between;
+    box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
+}
+.conteudo section article{
+    display: flex;
+    align-items: center;
+    background-color: #f3ebeb;
+}
+.Div-Icon_Op{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3ebeb;
+}
+.Div-Icon_Op a:hover{
+    background-size: 26px;
+    transition: ease-in 800ms;
+    border-top-left-radius: 15px;
+    background-color: #ddd9d99d;
+    border-bottom-left-radius: 15px;
+    border-right: solid 20px #ddd9d99d;
+}
+.Div-Icon_Op button:hover::after{
+    content: "apagar";
+}
+.icon1:hover::after{
+    content: "Editar";
+}
+.icon3:hover::after{
+    content: "Favorito";
+}
+.Div-Icon_Op button:hover{
+    background-size: 26px;
+    transition: ease-in 800ms;
+    border-top-left-radius: 15px;
+    background-color: #ddd9d99d;
+    border-bottom-left-radius: 15px;
+    border-right: solid 20px #ddd9d99d;
+}
+.icon1{
+    width: 50px;
+    height: 50px;
+    padding-top:35px;
+    font-size: 0.3em;
+    padding-left: 7px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-color: #f3ebeb;
+    background-position: center;
+    background-image: url("../image/pencil.png");
+}
+.icon2{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 0.3em;
+    padding-left: 5px;
+    padding-top: 35px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-color: #f3ebeb;
+    background-position: center;
+    background-image: url("../image/bin.png");
+}
+.icon3{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    padding-top:35px;
+    font-size: 0.3em;
+    padding-left: 5px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f3ebeb;
+    background-image: url("../image/trophy.png");
 }
 
-.op ul li{
-    width: 250px;
-    margin: 7px;
-    text-align: center;
+.conteudo article figcaption{
+    display: flex;
+    padding-left:35px;
+    background-color: #f3ebeb;
 }
-
-.op ul li a{
-    border-radius: 7%;
-    padding: 7px;
+.conteudo article figcaption div{
+    margin: 15px;
+    background-color: #f3ebeb;
 }
-
-#cor1{
-    background-color:#D9D9D9;
-    border-left: solid 2px #89888C;
-    color: #151516;
-}
-.op ul li a:hover{
-    background-color:#D9D9D9;
-    transition: 0.5s ease;
-    border-left: solid 2px #89888C;
-    color: #151516;
-}
-
-fieldset label{
-    width: 75px;
+.Div_Text_Ilustrativo{
+    text-align: right;
     display: inline-block;
-    font-size: 17pt;
-    color: #818185;
-    margin-left: 3%;
 }
-fieldset legend{
-    text-align: center;
-    color: #818185;
-    font-weight: 500;
-    font-family: 'Balsamiq Sans', cursive;
-    color: #bdb7b7;
-    border-bottom: solid 1px  rgb(138, 134, 134);
+.Div_Text_Ilustrativo h1{
+    font-size: 0.8em;
+    color: #2b2626c2;
+    background-color: #f3ebeb;
+}
+.Div_Text_Ilustrativo p{
+    font-size: 0.7em;
+    color: #2b2626e7;
+    background-color: #f3ebeb;
+}
+.Div_Text h1{
+    width: 240px;
+    font-size: 0.8em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #f3ebeb;
+}
+.Div_Text p{
+    width: 250px;
+    font-size: 0.7em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #f3ebeb;
+}
+.conteudo article figure img{
     width: 150px;
+    height: 210px;
+    display: block;
+    position: relative;
+    border-radius: 18px;
+    border: solid 1px rgba(128, 128, 128, 0.555);
+    background-color: #f3ebeb;
 }
-
-fieldset input{
-    width: 150px;
-    height: 30px;
-    font-size: 15pt;
-    background-color: #e9e5e5;
-    color: #262626;
+.conteudo article figure{
+    background-color: #f3ebeb;
 }
-
-.op2{
-    width: 150px;
-    height: 30px;
-    font-size: 15pt;
-    color: #262626;
-}
-
-.op2 option{
-    width: 150px;
-    height: 30px;
-    font-size: 15pt;
-    background-color: #eeebeb;
-    color: #262626;
-}
-
-.fotoPrew{
-    margin-left: 60%;
-    margin-top: -49%;
-    justify-content: space-evenly;
-}
-.fotoPrew img{
-    width: 140px;
-    height: 190px;
-}
-
-.fotoPrew input{
-    display: none;
-}
-
-.fotoPrew label{
-  background-color: #818185;
-  border-radius: 6px;
-  color: #fff;
-  cursor: pointer;
-  padding: 5px;
-  font-size: 10pt;
-  text-align: center;
-  margin-left: 15%;
-}
-
-.seta{
-    margin-top: -50px;
-    margin-left: 18px;
-    width: 32px;
-    height: 32px;
-}
-
-.bon{
-    margin-left: 20%;
-    background-color: #818185;
-    color: rgb(24, 22, 22);
-    font-weight: 300;
-} 

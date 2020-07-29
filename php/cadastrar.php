@@ -32,43 +32,43 @@
         </nav>
     </header>
     <div class="conteudo">
-            <form method="POST" action="../php/processamento/processo.php" enctype="multipart/form-data">
-                <legend>Informações do Mangá</legend>
-                <label for="manga">Título</label> 
-                    <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
-                <label for="aut">Autor</label> 
-                    <input type="text" id="aut" name="autor" required autocomplete="off"><br/>
-                <label for="volu">Volume</label> 
-                    <input type="number" id="volu" name="volume" placeholder="Opcional" autocomplete="off"><br/>
-                <label for="capi">Capítulo</label> 
-                     <input type="number" id="capi" name="capitulo" placeholder="Opcional" autocomplete="off"><br/>
-                <!-- <label for="edit">Editora</label>
-                    <input type="text" id="edit" name="editora" required autocomplete="off"><br/> -->
-                <label for="opS">Status</label>
-                    <select id="opSta" name="status" required autocomplete="off">
-                        <option></option>
-                        <option>Completo</option>
-                        <option>Lendo</option>
-                        <option>Parado</option>
-                        <option>Pedente</option>
-                    </select><br/>
-                <label for="opG">Gênero</label>
-                    <select id="opG" name="genero" required autocomplete="off">
-                        <option></option>
-                        <option>Komodo</option>
-                        <option>Shounen</option>
-                        <option>Shoujo</option>
-                        <option>Gekigá</option>
-                        <option>Seinen</option>
-                        <option>Josei</option>
-                    </select><br/>
-                    <button type="submit">Adicionar</button>
-                <div class="fotoPrew">
-                        <img id="mostrarAqui"> 
-                    <label for="esfoto"><p>Capa</p></label>
-                        <input id="esfoto" type="file" accept="image/*" required name="foto" onchange="mostrarImagem(event)">
-                </div>  
-            </form>
+        <form method="POST" action="processamento/processo.php" enctype="multipart/form-data">
+            <legend>Informações do Mangá</legend>
+            <label for="manga">Título</label> 
+                <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
+            <label for="aut">Autor</label> 
+                <input type="text" id="aut" name="autor" required autocomplete="off"><br/>
+            <label for="volu">Volume</label> 
+                <input type="number" id="volu" name="volume" placeholder="Opcional" autocomplete="off"><br/>
+            <label for="capi">Capítulo</label> 
+                <input type="number" id="capi" name="capitulo" placeholder="Opcional" autocomplete="off"><br/>
+        <!--<label for="edit">Editora</label>
+                <input type="text" id="edit" name="editora" required autocomplete="off"><br/> -->
+            <label for="opS">Status</label>
+                <select id="opSta" name="status" required autocomplete="off">
+                    <option></option>
+                    <option>Completo</option>
+                    <option>Lendo</option>
+                    <option>Parado</option>
+                    <option>Pedente</option>
+                </select><br/>
+            <label for="opG">Gênero</label>
+                <select id="opG" name="genero" required autocomplete="off">
+                    <option></option>
+                    <option>Komodo</option>
+                    <option>Shounen</option>
+                    <option>Shoujo</option>
+                    <option>Gekigá</option>
+                    <option>Seinen</option>
+                    <option>Josei</option>
+                </select><br/>
+                <button type="submit">Adicionar</button>
+            <div class="fotoPrew">
+                    <img id="mostrarAqui"> 
+                <label for="esfoto"><p>Capa</p></label>
+                    <input id="esfoto" type="file" accept="image/*" required name="foto" onchange="mostrarImagem(event)">
+            </div>  
+        </form>
     </div>
     <footer class="rodape">
         <h1>EdNoob</h1>

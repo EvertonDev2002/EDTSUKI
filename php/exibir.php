@@ -31,38 +31,64 @@
         </nav>
     </header>
     <div class="conteudo">
+        <?php
+        include_once("processamento/conexao.php");
+        $code = "SELECT * FROM mangas";
+        $resul = mysqli_query($ed, $code);
+        if($resul){
+            while( $row = mysqli_fetch_array($resul)){?>
         <section>
             <article>
                 <figure>
-                    <img src="../cache_upload/4a370c5db374842851549463a9a30f45.jpg"> 
+                    <img src="../cache_upload/<?php echo $row['arquivo']?>"> 
                 </figure>
                 <figcaption>
                 <div class="Div_Text_Ilustrativo">
                     <h1>Título:</h1>
                     <p>Autor:</p>
-                    <p>Volume:</p>
-                    <p>Capítulo:</p>
-                    <p>Editora:</p>
+                    <?php 
+                    if($row['capitulo'] == null){
+                        if(($row['volume'] == null) and ($row['capitulo'] == null)){
+                            echo"<p></p>";
+                        }else{
+                            echo"<p>Volume:</p>";
+                        }
+                    }elseif($row['volume'] == null){
+                        if(($row['volume'] == null) and ($row['capitulo'] == null)){
+                            echo"<p></p>";
+                        }else{
+                            echo"<p>Capitulo:</p>";
+                        }
+                    }
+                     ?>
+                    <!-- <p>Editora:</p> -->
                     <p>Status:</p>
                     <p>Gênero:</p>
                     </div>
-                    <div>
-                    <h1>Título</h1>
-                    <p>Autor</p>
-                    <p>Volume</p>
-                    <p>Capítulo</p>
-                    <p>Editora</p>
-                    <p>Status</p>
-                    <p>Gênero</p>
+                    <div class="Div_Text">
+                    <h1 title="<?php echo $row['nome']?>"><?php echo $row['nome']?></h1>
+                    <p><?php echo $row['autor']?></p>
+                    <p><?php echo $row['volume']?></p>
+                    <p><?php echo $row['capitulo']?></p>
+                    <!-- <p>Editora</p> -->
+                    <p><?php echo $row['statush']?></p>
+                    <p><?php echo $row['genero']?></p>
                     </div>
                 </figcaption>
             </article>
                 <div class="Div-Icon_Op">
                     <a class="icon1" href="#"></a>
                     <button class="icon2" type="submit"></button>
-                    <a class="icon3" href="#"></a>
+                    <a class="<?php if($row['favoritos'] == 0){echo"icon3";}elseif($row['favoritos'] == 1){echo"icon4";}?>
+                    " href="processamento/favorita.php?ed=<?php echo $row['id']?>&
+                    f=<?php echo $row['favoritos']?>">
+                    </a>
                 </div>
         </section>
+        <?php       
+            }
+        }
+        ?>
     </div>
     <footer class="rodape">
         <h1>EdNoob</h1>

@@ -40,14 +40,15 @@
             $code = "SELECT * FROM mangas WHERE favoritos";
             $resul = mysqli_query($ed, $code);
             if($resul){
-                while($row = mysqli_fetch_array($resul)){?>
+                while($row = mysqli_fetch_array($resul)){
+                ?>
                 <article>
                     <img src="cache_upload/<?php echo $row['arquivo']?>"">
                     <legend title="<?php echo $row['nome']?>"><?php echo $row['nome']?></legend>
                 </article>
-                <?php
-                }
+                <?php 
             }
+        }
             ?> 
             </div>
         </section>
