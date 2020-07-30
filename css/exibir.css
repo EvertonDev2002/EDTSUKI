@@ -1,15 +1,16 @@
 /*Estilização do conteúdo*/
-.conteudo{
+.conteudo {
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color:#DFDFDF;
+    background-color: #DFDFDF;
     justify-content: space-around;
 }
-.conteudo section{
+
+.conteudo section {
     width: 50%;
     margin: 10px;
     height: 249px;
@@ -18,24 +19,27 @@
     border-radius: 15px;
     align-items: center;
     border-top-width: 10px;
-    border-top-style:outset;
+    border-top-style: outset;
     background-color: #f3ebeb;
     border-top-color: #63a4e0;
     justify-content: space-between;
     box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
 }
-.conteudo section article{
+
+.conteudo section article {
     display: flex;
     align-items: center;
     background-color: #f3ebeb;
 }
-.Div-Icon_Op{
+
+.Div-Icon_Op {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #f3ebeb;
 }
-.Div-Icon_Op a:hover{
+
+.Div-Icon_Op a:hover {
     background-size: 26px;
     transition: ease-in 800ms;
     border-top-left-radius: 15px;
@@ -43,16 +47,20 @@
     border-bottom-left-radius: 15px;
     border-right: solid 20px #ddd9d99d;
 }
-.Div-Icon_Op button:hover::after{
+
+.Div-Icon_Op button:hover::after {
     content: "apagar";
 }
-.icon1:hover::after{
+
+.icon1:hover::after {
     content: "Editar";
 }
-.icon3:hover::after{
+
+.icon3:hover::after {
     content: "Favorito";
 }
-.Div-Icon_Op button:hover{
+
+.Div-Icon_Op button:hover {
     background-size: 26px;
     transition: ease-in 800ms;
     border-top-left-radius: 15px;
@@ -60,10 +68,11 @@
     border-bottom-left-radius: 15px;
     border-right: solid 20px #ddd9d99d;
 }
-.icon1{
+
+.icon1 {
     width: 50px;
     height: 50px;
-    padding-top:35px;
+    padding-top: 35px;
     font-size: 0.3em;
     padding-left: 7px;
     background-size: 25px;
@@ -72,7 +81,8 @@
     background-position: center;
     background-image: url("../image/pencil.png");
 }
-.icon2{
+
+.icon2 {
     width: 50px;
     height: 50px;
     margin-top: 5px;
@@ -86,11 +96,12 @@
     background-position: center;
     background-image: url("../image/bin.png");
 }
-.icon3{
+
+.icon3 {
     width: 50px;
     height: 50px;
     margin-top: 5px;
-    padding-top:35px;
+    padding-top: 35px;
     font-size: 0.3em;
     padding-left: 5px;
     background-size: 25px;
@@ -99,44 +110,50 @@
     background-color: #f3ebeb;
     background-image: url("../image/trophy.png");
 }
-.icon4{
+
+.icon4 {
     width: 50px;
     height: 50px;
     margin-top: 5px;
-    padding-top:35px;
+    padding-top: 35px;
     font-size: 0.3em;
     padding-left: 5px;
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #f3ebeb;
-    background-image: url("../image/trop.png");
+    background-image: url("../image/troph.png");
 }
 
-.conteudo article figcaption{
+.conteudo article figcaption {
     display: flex;
-    padding-left:35px;
+    padding-left: 35px;
     background-color: #f3ebeb;
 }
-.conteudo article figcaption div{
+
+.conteudo article figcaption div {
     margin: 15px;
     background-color: #f3ebeb;
 }
-.Div_Text_Ilustrativo{
+
+.Div_Text_Ilustrativo {
     text-align: right;
     display: inline-block;
 }
-.Div_Text_Ilustrativo h1{
+
+.Div_Text_Ilustrativo h1 {
     font-size: 0.8em;
     color: #2b2626c2;
     background-color: #f3ebeb;
 }
-.Div_Text_Ilustrativo p{
+
+.Div_Text_Ilustrativo p {
     font-size: 0.7em;
     color: #2b2626e7;
     background-color: #f3ebeb;
 }
-.Div_Text h1{
+
+.Div_Text h1 {
     width: 240px;
     font-size: 0.8em;
     overflow: hidden;
@@ -144,7 +161,8 @@
     text-overflow: ellipsis;
     background-color: #f3ebeb;
 }
-.Div_Text p{
+
+.Div_Text p {
     width: 250px;
     font-size: 0.7em;
     overflow: hidden;
@@ -152,7 +170,8 @@
     text-overflow: ellipsis;
     background-color: #f3ebeb;
 }
-.conteudo article figure img{
+
+.conteudo article figure img {
     width: 150px;
     height: 210px;
     display: block;
@@ -161,6 +180,7 @@
     border: solid 1px rgba(128, 128, 128, 0.555);
     background-color: #f3ebeb;
 }
-.conteudo article figure{
+
+.conteudo article figure {
     background-color: #f3ebeb;
 }
