@@ -60,7 +60,7 @@
                 </figcaption>
             </article>
             <div class="Div-Icon_Op">
-                <a class="icon1" href="#"></a>
+                <a class="icon1" href="editar.php?id=<?php echo $row['id']?>&foto=<?php echo $row['arquivo']?>&titulo=<?php echo $row['nome']?>&autor=<?php echo $row['autor']?>&volume=<?php echo $row['volume']?>&capitulo=<?php echo $row['capitulo']?>&status=<?php echo $row['statush']?>&genero=<?php echo $row['genero']?>"></a>
                 <button class="icon2" type="submit"></button>
                 <a class="<?php if($row['favoritos'] == 0){echo"icon3";}else{echo"icon4";}?>"href="processamento/favorita.php?ed=<?php echo $row['id']?>&f=<?php echo $row['favoritos']?>"></a>
             </div>

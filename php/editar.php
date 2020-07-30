@@ -32,43 +32,57 @@
         </nav>
     </header>
     <div class="conteudo">
-        
+        <?php
+            $foto = trim($_GET['foto']);
+            $id = trim($_GET['id']);
+            $titulo = trim($_GET['titulo']);
+            $autor = trim($_GET['autor']);
+            $volume = trim($_GET['volume']);
+            $capitulo = trim($_GET['capitulo']);
+            $status = trim($_GET['status']);
+            $genero = trim($_GET['genero']);
+        ?>
         <form method="POST" action="processamento/atualizar.php" enctype="multipart/form-data">
-            <legend>Informações do Mangá</legend>
-            <label for="manga">Título</label> 
-                <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
-            <label for="aut">Autor</label> 
-                <input type="text" id="aut" name="autor" required autocomplete="off"><br/>
-            <label for="volu">Volume</label> 
-                <input type="number" id="volu" name="volume" placeholder="Opcional" autocomplete="off"><br/>
-            <label for="capi">Capítulo</label> 
-                <input type="number" id="capi" name="capitulo" placeholder="Opcional" autocomplete="off"><br/>
-        <!--<label for="edit">Editora</label>
-                <input type="text" id="edit" name="editora" required autocomplete="off"><br/> -->
-            <label for="opS">Status</label>
-                <select id="opSta" name="status" required autocomplete="off">
-                    <option></option>
-                    <option>Completo</option>
-                    <option>Lendo</option>
-                    <option>Parado</option>
-                    <option>Pedente</option>
-                </select><br/>
-            <label for="opG">Gênero</label>
-                <select id="opG" name="genero" required autocomplete="off">
-                    <option></option>
-                    <option>Komodo</option>
-                    <option>Shounen</option>
-                    <option>Shoujo</option>
-                    <option>Gekigá</option>
-                    <option>Seinen</option>
-                    <option>Josei</option>
-                </select><br/>
-                <button type="submit">Adicionar</button>
-            <div class="fotoPrew">
-                    <img id="mostrarAqui"> 
-                <label for="esfoto"><p>Capa</p></label>
-                    <input id="esfoto" type="file" accept="image/*" required name="foto" onchange="mostrarImagem(event)">
-            </div>  
+            <div class="Div_Form">
+                <div class="Div_Campos">
+                    <input type="hidden" value="<?php echo$id;?>" name="id">
+                    <legend>Informações do Mangá</legend>
+                    <label for="manga">Título</label> 
+                        <input type="text" id="manga" value="<?php echo$titulo;?>" name="titulo" required autocomplete="off">
+                    <label for="aut">Autor</label> 
+                        <input type="text" id="aut" value="<?php echo$autor;?>" name="autor" required autocomplete="off">
+                    <label for="volu">Volume</label> 
+                        <input type="number" id="volu" value="<?php echo$volume;?>" name="volume" placeholder="Opcional" autocomplete="off">
+                    <!-- <label for="capi">Capítulo</label> 
+                        <input type="number" id="capi" value="<?php echo$capitulo;?>" name="capitulo" placeholder="Opcional" autocomplete="off"> -->
+                <!--<label for="edit">Editora</label>
+                        <input type="text" id="edit" name="editora" required autocomplete="off"><br/> -->
+                    <label for="opS">Status</label>
+                        <select id="opSta" name="status" required autocomplete="off">
+                            <option><?php echo$status;?></option>
+                            <option>Completo</option>
+                            <option>Lendo</option>
+                            <option>Parado</option>
+                            <option>Pedente</option>
+                        </select>
+                    <label for="opG">Gênero</label>
+                        <select id="opG" name="genero" required autocomplete="off">
+                            <option><?php echo$genero;?></option>
+                            <option>Komodo</option>
+                            <option>Shounen</option>
+                            <option>Shoujo</option>
+                            <option>Gekigá</option>
+                            <option>Seinen</option>
+                            <option>Josei</option>
+                        </select>
+                        <button type="submit">Adicionar</button>
+                </div>
+                <div class="fotoPrew">
+                        <img id="mostrarAqui" src="../cache_upload/<?php echo$foto;?>"> 
+                    <label for="esfoto"><p>Capa</p></label>
+                        <input id="esfoto" type="file" accept="image/*" name="foto" onchange="mostrarImagem(event)">
+                </div>  
+            </div>
         </form>
     </div>
     <footer class="rodape">
