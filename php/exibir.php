@@ -32,6 +32,7 @@
     </header>
     <div class="conteudo">
         <?php
+        // Isso aqui ta muito junto, quase nao da pra entender (na verdade eu n entendi pq n to analisando tudo, só estetica.)
         include_once("processamento/conexao.php");$code = "SELECT * FROM mangas";$resul = mysqli_query($ed, $code);      if($resul){while( $row = mysqli_fetch_array($resul)){?>
         <section>
             <article>

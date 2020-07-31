@@ -9,6 +9,7 @@
     <link rel="icon" href="image/favicon-48.png" sizes="48x48">
     <link rel='stylesheet' type='text/css' media='screen' href='css/menu.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+    <!-- Incluir o reset junto com o index, usando @import-->
     <link rel='stylesheet' type='text/css' media='screen' href='css/reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/rodape.css'>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">

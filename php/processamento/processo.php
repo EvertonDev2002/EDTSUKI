@@ -16,7 +16,7 @@ if((empty($capitu)) and (empty($volume))){
   $sql_cod =  "INSERT INTO mangas(arquivo, datah, nome, autor, statush, genero, favoritos) VALUES('$nome',NOW(),'$titulo','$autor','$status','$genero','0')";
   $envio = mysqli_query($ed, $sql_cod);
   header('Location:../cadastrar.php');
-}elseif(!empty($capitu)){
+}elseif(!empty($capitu)){ // (!empty($capitu)) é a mesma coisa que ($capitu), sendo assim $capitu é melhor.
   $tipo_arquivo = substr($_FILES['foto']['name'], -4);
   $nome = md5(time()) . $tipo_arquivo;
   $dir = "../../cache_upload/";
@@ -24,7 +24,7 @@ if((empty($capitu)) and (empty($volume))){
   $sql_code =  "INSERT INTO mangas(arquivo, datah, nome, capitulo, autor, statush, genero, favoritos) VALUES('$nome',NOW(),'$titulo','$capitu','$autor','$status','$genero','0')";
   $envio = mysqli_query($ed, $sql_code);
   header('Location:../cadastrar.php');
-}elseif(!empty($volume)){
+}elseif(!empty($volume)){ // A mesma coisa se aplica aqui.
   $tipo_arquivo = substr($_FILES['foto']['name'], -4);
   $nome = md5(time()) . $tipo_arquivo;
   $dir = "../../cache_upload/";

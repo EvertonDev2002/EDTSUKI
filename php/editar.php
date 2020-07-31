@@ -50,6 +50,7 @@
                     <label for="manga">Título</label> 
                         <input type="text" id="manga" value="<?php echo$titulo;?>" name="titulo" required autocomplete="off">
                     <label for="aut">Autor</label> 
+                        <!-- Mesmo comentario do cadastrar.php#40 -->
                         <input type="text" id="aut" value="<?php echo$autor;?>" name="autor" required autocomplete="off">
                     <label for="volu">Volume</label> 
                         <input type="number" id="volu" value="<?php echo$volume;?>" name="volume" placeholder="Opcional" autocomplete="off">

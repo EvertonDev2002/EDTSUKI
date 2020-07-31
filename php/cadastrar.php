@@ -37,6 +37,8 @@
             <label for="manga">Título</label> 
                 <input type="text" id="manga" name="titulo" required autocomplete="off"><br/>
             <label for="aut">Autor</label> 
+                <!-- No input abaixo, o autocomplete poderia ser "name", já que pode ser comum a pessoa digitar o mesmo
+                autor duas vezes. -->
                 <input type="text" id="aut" name="autor" required autocomplete="off"><br/>
             <label for="volu">Volume</label> 
                 <input type="number" id="volu" name="volume" placeholder="Opcional" autocomplete="off"><br/>
