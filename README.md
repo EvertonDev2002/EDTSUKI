@@ -1,5 +1,3 @@
-# **_Meu primeiro site_**
-
 Estou iniciando agora no ramo da programação. Criei esse repositório para que todos possam acompanhar de perto cada etapa que passarei ao longo tempo.
 
 |   |**_Linguagens_**|   |

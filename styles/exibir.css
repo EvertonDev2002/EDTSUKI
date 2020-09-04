@@ -1,0 +1,157 @@
+/*Estilização do conteúdo*/
+.conteudo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+    background-color: #DFDFDF;
+}
+.conteudo section {
+    width: 48%;
+    margin: 10px;
+    padding:15px;
+    height: 249px;
+    display: flex;
+    min-width: 550px;
+    border-radius: 15px;
+    border-top-width: 10px;
+    border-top-style: outset;
+    background-color: #f3ebeb;
+    border-top-color: #63a4e0;
+    justify-content: space-between;
+    box-shadow: 4px 3px 14px rgba(65, 62, 62, 0.322);
+}
+.conteudo section article {
+    display: flex;
+    background-color: #f3ebeb;
+}
+.Div-Icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f3ebeb;
+}
+.Div-Icon a:hover {
+    background-size: 26px;
+    transition: ease-in 800ms;
+    border-top-left-radius: 15px;
+    background-color: #ddd9d99d;
+    border-bottom-left-radius: 15px;
+    border-right: solid 20px #ddd9d99d;
+}
+.Div-Icon button:hover {
+    background-size: 26px;
+    transition: ease-in 800ms;
+    border-top-left-radius: 15px;
+    background-color: #ddd9d99d;
+    border-bottom-left-radius: 15px;
+    border-right: solid 20px #ddd9d99d;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 0.3rem;
+    padding-left: 5px;
+    padding-top: 35px;
+    background-size: 25px;
+    background-position: center;
+    background-color: #f3ebeb;
+    background-repeat: no-repeat;
+}
+.icon.icon1{
+    background-image: url("../images/icons/pencil.png");
+}
+.icon.icon2 {
+    background-image: url("../images/icons/bin.png");
+}
+
+.icon.icon3 {
+    background-image: url("../images/icons/trophy.png");
+}
+
+.icon.icon4 {
+    background-image: url("../images/icons/troph.png");
+}
+.conteudo article figcaption {
+    margin: 5%;
+    width: 25%;
+    display: flex;
+    min-width: 100px;
+    background-color: #f3ebeb;
+}
+.conteudo article figcaption div {
+    background-color: #f3ebeb;
+}
+
+.Div_Text_Ilustrativo {
+    margin-right: 10%;
+    text-align: right;
+}
+
+.Div_Text_Ilustrativo h1 {
+    font-size: 1.1rem;
+    color: #2b2626c2;
+    background-color: #f3ebeb;
+}
+.Div_Text_Ilustrativo p {
+    font-size: 0.9rem;
+    color: #2b2626e7;
+    background-color: #f3ebeb;
+}
+.Div_Text{
+    width: 230px;
+}
+.Div_Text h1 {
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #f3ebeb;
+}
+.Div_Text p {
+    width: 100%;
+    overflow: hidden;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #f3ebeb;
+}
+.conteudo article figure img {
+    width: 150px;
+    height: 210px;
+    display: block;
+    min-width: 100px;
+    border-radius: 18px;
+    background-color: #f3ebeb;
+    border: solid 1px rgba(128, 128, 128, 0.555);
+}
+.conteudo article figure {
+    background-color: #f3ebeb;
+}
+.Div_links {
+    width: 100%;
+    display: flex;
+    padding-bottom: 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: #DFDFDF;
+}
+.Div_links a{
+    padding: 5px;
+    font-size: 0.8rem;
+    background-color: #DFDFDF;
+}
+.Div_links a:hover{
+    color:#1a1818;
+    border-radius: 15px;
+    transition: ease-in 750ms;
+    background-color: #70b7e0;
+}

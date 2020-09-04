@@ -1,0 +1,31 @@
+@media screen and (max-width: 1024px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu_responsi{
+        display: flex;
+    }
+    .conteudo{
+        padding-top: 10%;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .Div-Overflow{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Div-Overflow article{
+        flex: 0 1 50px;
+
+    }
+    .Div-text p{
+        
+        text-align: center;
+    
+        background-color: black;
+    }
+}

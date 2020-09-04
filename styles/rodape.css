@@ -1,0 +1,45 @@
+/*Estilização do rodapé*/
+.rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #63a4e0;
+}
+.rodape h1{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    background-color:#63a4e0;
+}
+.rodape p{
+    font-size: 0.6rem;
+    text-align: justify;
+    background-color:#63a4e0;
+}
+.rodape div{
+    width: 70px;
+    padding: 4px;
+    display: flex;
+    background-color:#63a4e0;
+}
+.Image1{
+    width: 32px;
+    height: 32px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-image: url("../images/icons/github.png");
+}
+.image2{
+    width: 32px;
+    height: 32px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-image: url("../images/icons/youtube.png")
+}
