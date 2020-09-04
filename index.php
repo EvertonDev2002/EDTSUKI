@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head >
+<head lang="pt-BR">
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>NoobPHP</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/reset.css'>
-    <link rel="icon" href="image/favicon-16.png" sizes="16x16">
-    <link rel="icon" href="image/favicon-32.png" sizes="32x32">
-    <link rel="icon" href="image/favicon-48.png" sizes="48x48">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>EdTsuki</title>
+    <link rel="icon" href="images/icons/favicon-16.png" sizes="16x16">
+    <link rel="icon" href="images/icons/favicon-32.png" sizes="32x32">
+    <link rel="icon" href="images/icons/favicon-48.png" sizes="48x48">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/menu.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/inicio.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/rodape.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/responsividade.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body>  
-    <div class="centro">
-        <nav class="op">
-            <ul>
-                <li><a href="php/cadastrar.php">Cadastrar</a></li>
-                <li><a href="php/exibir.php">Mangás</a></li>
-            </ul>
-        </nav>
-        <img src="image/punpun.png" width="320px" height="350px">
-        <h1>Apenas um sonho distante (あい).</h1>
+<body>
+    <div id="tudo">
+        <header class="menu">
+            <div><a href="inicio.php">EdTsuki</a></div>
+                <div>
+                    <form method="GET" action="resultado.php">
+                            <input maxlength="50" type="text" autocomplete="off" name="pesquisa"> 
+                        <button type="submit"></button>  
+                    </form>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="inicio.php">Início</a></li>
+                        <li><a href="cadastrar.php">Adicionar</a></li>
+                        <li><a href="exibir.php?page=1">Biblioteca</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <div class="conteudo">
+            
+            sds
+        </div>
+        <footer class="rodape">
+            <h1>EdTsuki</h1>
+            <p>Tenha um maior controle sobre os seus animes e mangás</p>
+            <div>
+                <a class="Image1" href="https://github.com/Edward04007/EdNoob" title="@Edward04007" target="_blank"></a>
+                <a class="image2" href="https://www.youtube.com/channel/UCWmUztmWBOuE7zhGHkwa_Zw?view_as=subscriber" title="Canal" target="_blank"></a>
+            </div>
+        </footer>
     </div>
 </body>            
 </html>
