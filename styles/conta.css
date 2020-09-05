@@ -10,7 +10,7 @@
 }
 .conteudo section{
     width: 15em;
-    height: 10em;
+    height: 12em;
     border-radius: 15px;
     border-top-width: 10px;
     border-top-style: outset;
@@ -54,6 +54,7 @@
     font-size: 1rem;
     border-radius: 7px;
     background-color: #23aadf;
+    border: solid 2px #62aada;
     color: #F3EFEF;
 }
 .conteudo section form button:focus{
@@ -67,9 +68,4 @@
 .conteudo section form a:hover{
     text-decoration: underline;
     text-decoration-color: #62aada;
-}
-.msg{
-    margin-top: 0.7em;
-    color: #cf5b5b;
-    font-size: 0.7rem ;
 }

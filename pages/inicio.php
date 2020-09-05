@@ -8,7 +8,7 @@
     <link rel="icon" href="../images/icons/favicon-32.png" sizes="32x32">
     <link rel="icon" href="../images/icons/favicon-48.png" sizes="48x48">
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/menu.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../styles/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles/inicio.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/rodape.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/responsividade.css'>

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head lang="pt-BR">
@@ -8,7 +9,7 @@
     <link rel="icon" href="images/icons/favicon-32.png" sizes="32x32">
     <link rel="icon" href="images/icons/favicon-48.png" sizes="48x48">
     <link rel='stylesheet' type='text/css' media='screen' href='styles/menu.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles/inicio.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/index.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/reset.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/rodape.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/responsividade.css'>
@@ -16,25 +17,18 @@
 </head>
 <body>
     <div id="tudo">
-        <header class="menu">
-            <div><a href="inicio.php">EdTsuki</a></div>
-                <div>
-                    <form method="GET" action="resultado.php">
-                            <input maxlength="50" type="text" autocomplete="off" name="pesquisa"> 
-                        <button type="submit"></button>  
-                    </form>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="inicio.php">Início</a></li>
-                        <li><a href="cadastrar.php">Adicionar</a></li>
-                        <li><a href="exibir.php?page=1">Biblioteca</a></li>
-                    </ul>
-                </nav>
-        </header>
         <div class="conteudo">
-            
-            sds
+            <section>
+                <form action="pages/functions/entrar.php" method="POST">
+                <legend>Entrar no EdTsuki</legend>
+                    <input type="text" name="user" maxlength="50" placeholder="Usuário" required autocomplete="off">
+                    <input type="password" maxlength="8" name="pass" placeholder="Senha" required autocomplete="off">
+                    <div><button name="button" type="submit">Entrar</button><a href="pages/criar_conta.php">Criar uma conta</a></div>
+                    <?php if(isset($_SESSION['msg'])){ 
+                        echo"<p class='msg'> Faça o login!</p>";
+                        unset($_SESSION['msg']);} ?>
+                </form>
+        </section>
         </div>
         <footer class="rodape">
             <h1>EdTsuki</h1>
